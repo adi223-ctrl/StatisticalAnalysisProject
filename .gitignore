@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Large data/model artifacts - regenerate locally, don't push to GitHub
+flights.csv
+flight_delay_model.pkl
+
+.DS_Store
